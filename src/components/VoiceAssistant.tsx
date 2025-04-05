@@ -72,8 +72,8 @@ export default function VoiceAssistant() {
         {
           method: 'POST',
           headers: {
-            Authorization: `Bearer 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`,
-            'Content-Type': 'application/json',
+            const accessToken = "hf_abcdefg1234567"; // 👈 REMOVE this line
+            
           },
           body: JSON.stringify({
             inputs: inputText,
