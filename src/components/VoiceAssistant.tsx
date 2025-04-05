@@ -72,7 +72,7 @@ export default function VoiceAssistant() {
         {
           method: 'POST',
           headers: {
-            Authorization: `Bearer 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`,
+            Authorization: `Bearer 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`,
             'Content-Type': 'application/json',
           },
           body: JSON.stringify({
