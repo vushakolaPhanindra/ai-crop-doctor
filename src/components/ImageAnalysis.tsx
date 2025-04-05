@@ -29,7 +29,7 @@ export default function ImageAnalysis() {
     setErrorMessage(null);
     setControlMethods({ natural: [], organic: [] });
 
-    const apiKey = 'tDOKVFeUtiUb2D1R2k8vWV18oiha03tY8egzx8uAvvfJUMsVIv';
+    const apiKey = 'tDOKVFeUtiUb2D1R2k8vWV19oiha03tY8egzx8uAvvfJUMsVIv';
     const formData = new FormData();
     formData.append('image', file);
 

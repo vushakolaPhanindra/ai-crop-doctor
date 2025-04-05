@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  AI Crop Disease and Pests Detection
 
 An AI-based web application that helps farmers detect crop diseases and pest infestations using image processing and provides actionable insights for better farming.
@@ -61,3 +62,7 @@ Scalable with IoT sensors and cloud hosting
 
 Useful in precision agriculture and AgriTech startups
 
+=======
+# ai-crop-doctor
+An AI-powered web application that detects crop diseases and pest infestations from images using deep learning. Built to support farmers with actionable insights, improve crop health, and enhance agricultural productivity.
+>>>>>>> 0d93add65590dbc71d4d16cfd87c6e084754a349
