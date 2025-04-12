@@ -29,8 +29,8 @@ Database: SQLite / MySQL
 
 Clone this repository
 
-git clone https://github.com/your-username/ai-crop-disease-and-pests-detection.git
-cd ai-crop-disease-and-pests-detection
+git clone https://github.com/vushakolaPhanindra/ai-crop-doctor.git
+cd ai-crop-doctor
 
 Create and activate a virtual environment
 
