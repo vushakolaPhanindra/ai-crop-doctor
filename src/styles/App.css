@@ -1,0 +1,46 @@
+/* styles/App.css */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.bg-plant-background {
+  background-image: url('C:\Users\vphan\Downloads\archive (1)\ai_hack_day_a\src\assets\plant-background.jpg'); /* Path to your plant background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0.5); /* Light overlay color */
+}
+
+.animate-leaf {
+  animation: leaf-float 3s ease-in-out infinite; /* Example animation */
+}
+
+@keyframes leaf-float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 10s linear infinite;
+}
+
+.drop-shadow-2xl {
+  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.2));
+}
+
+.drop-shadow-xl {
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.15));
+}
+
+
+/* Additional styles can be added as needed */
